@@ -27,6 +27,11 @@ public class Main {
         System.out.println(linkedHashMap);
         System.out.println("frequency of 'paranoid': " + linkedHashMap.get("paranoid"));
 
+        System.out.println("frequency of 'avoidable' before removing: " + linkedHashMap.get("avoidable"));
+        linkedHashMap.remove("avoidable");
+        System.out.println("frequency of 'avoidable' after removing: " + linkedHashMap.get("avoidable"));
+        System.out.println(linkedHashMap);
+
     }
 
 }
